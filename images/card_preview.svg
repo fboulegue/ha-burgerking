@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bkGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#D62300" />
+      <stop offset="100%" stop-color="#502314" />
+    </linearGradient>
+    <linearGradient id="badgeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FBE122" />
+      <stop offset="100%" stop-color="#ED7800" />
+    </linearGradient>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="115%">
+      <feDropShadow dx="0" dy="6" stdDeviation="12" flood-color="#000000" flood-opacity="0.4" />
+    </filter>
+    <style>
+      .font { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+      .main-title { font-weight: 700; font-size: 22px; fill: #FFFFFF; }
+      .sub-title { font-size: 13px; fill: #A0AEC0; }
+      .card-title { font-weight: 600; font-size: 16px; fill: #F7FAFC; }
+      .card-sub { font-size: 13px; fill: #94A3B8; }
+      .badge-text { font-weight: 800; font-size: 15px; fill: #1E293B; }
+      .price-text { font-weight: 700; font-size: 16px; fill: #F59E0B; }
+      .date-text { font-size: 12px; fill: #64748B; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="840" height="500" rx="16" fill="#0B0F17" />
+
+  <!-- Container -->
+  <g transform="translate(40, 32)">
+    <!-- Header Row -->
+    <rect width="52" height="52" rx="14" fill="url(#bkGrad)" />
+    <!-- Burger King Crown / Bun Shape -->
+    <path d="M 16 34 L 18 20 L 26 27 L 34 20 L 36 34 Z" fill="#FBE122" />
+    <path d="M 14 36 Q 26 40 38 36" stroke="#FFFFFF" stroke-width="2.5" fill="none" stroke-linecap="round" />
+
+    <text x="68" y="26" class="font main-title">Burger King Deutschland</text>
+    <text x="68" y="46" class="font sub-title">Home Assistant Integration • 32 aktive Coupons &amp; Deals live</text>
+
+    <rect x="636" y="10" width="124" height="32" rx="16" fill="#1E293B" stroke="#334155" stroke-width="1" />
+    <circle cx="652" cy="26" r="4.5" fill="#22C55E" />
+    <text x="664" y="31" class="font" font-size="12" font-weight="600" fill="#22C55E">32 AKTIV</text>
+
+    <!-- Coupon Card 1 -->
+    <g transform="translate(0, 80)" filter="url(#shadow)">
+      <rect width="760" height="104" rx="14" fill="#161E2E" stroke="#26334D" stroke-width="1.5" />
+      
+      <!-- Code Badge -->
+      <rect x="20" y="24" width="72" height="56" rx="10" fill="url(#badgeGrad)" />
+      <text x="56" y="48" class="font badge-text" text-anchor="middle">CODE</text>
+      <text x="56" y="68" class="font badge-text" font-size="18" text-anchor="middle">512</text>
+
+      <!-- Details -->
+      <text x="110" y="44" class="font card-title">2 Crispy Chicken Curry im Menü</text>
+      <text x="110" y="66" class="font card-sub">2 Crispy Chicken Curry + mittlere King Pommes + 0,4 l Coca-Cola®</text>
+      <text x="110" y="86" class="font date-text">Gültig bis: 09.11.2026 • Einlösung im Restaurant &amp; Drive-In</text>
+
+      <!-- Price -->
+      <text x="730" y="56" class="font price-text" text-anchor="end">Menü-Rabatt</text>
+    </g>
+
+    <!-- Coupon Card 2 -->
+    <g transform="translate(0, 200)" filter="url(#shadow)">
+      <rect width="760" height="104" rx="14" fill="#161E2E" stroke="#26334D" stroke-width="1.5" />
+      
+      <!-- Code Badge -->
+      <rect x="20" y="24" width="72" height="56" rx="10" fill="url(#badgeGrad)" />
+      <text x="56" y="48" class="font badge-text" text-anchor="middle">CODE</text>
+      <text x="56" y="68" class="font badge-text" font-size="18" text-anchor="middle">278</text>
+
+      <!-- Details -->
+      <text x="110" y="44" class="font card-title">Whopper® + Big King® im Menü</text>
+      <text x="110" y="66" class="font card-sub">Whopper® + Big King® + mittlere King Pommes + 0,4 l Getränk</text>
+      <text x="110" y="86" class="font date-text">Gültig bis: 30.11.2026 • Einlösung im Restaurant &amp; Drive-In</text>
+
+      <!-- Price -->
+      <text x="730" y="56" class="font price-text" text-anchor="end">Menü-Rabatt</text>
+    </g>
+
+    <!-- Coupon Card 3 -->
+    <g transform="translate(0, 320)" filter="url(#shadow)">
+      <rect width="760" height="104" rx="14" fill="#161E2E" stroke="#26334D" stroke-width="1.5" />
+      
+      <!-- Code Badge -->
+      <rect x="20" y="24" width="72" height="56" rx="10" fill="url(#badgeGrad)" />
+      <text x="56" y="48" class="font badge-text" text-anchor="middle">CODE</text>
+      <text x="56" y="68" class="font badge-text" font-size="18" text-anchor="middle">101</text>
+
+      <!-- Details -->
+      <text x="110" y="44" class="font card-title">6 Chili Cheese Nuggets</text>
+      <text x="110" y="66" class="font card-sub">Würzige Käse-Nuggets mit feurigen Jalapeños</text>
+      <text x="110" y="86" class="font date-text">Gültig bis: 30.11.2026 • Einlösung im Restaurant &amp; Drive-In</text>
+
+      <!-- Price -->
+      <text x="730" y="56" class="font price-text" text-anchor="end" fill="#22C55E">2,99 €</text>
+    </g>
+  </g>
+</svg>

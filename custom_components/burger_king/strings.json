@@ -1,0 +1,27 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Burger King einrichten",
+        "description": "Wähle dein Land aus, um alle aktuellen Burger King Coupons und Deals live in Home Assistant zu synchronisieren.",
+        "data": {
+          "country": "Land"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Verbindung zum Burger King Server fehlgeschlagen. Bitte Internetverbindung prüfen.",
+      "unknown": "Unerwarteter Fehler aufgetreten. Bitte Logs prüfen."
+    },
+    "abort": {
+      "already_configured": "Dieses Burger King Land ist bereits eingerichtet."
+    }
+  },
+  "entity": {
+    "sensor": {
+      "active_coupons": {
+        "name": "Aktive Coupons"
+      }
+    }
+  }
+}
