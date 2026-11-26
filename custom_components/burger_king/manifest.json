@@ -1,6 +1,9 @@
 {
   "domain": "burger_king",
   "name": "Burger King",
+  "categories": [
+    "productivity_information.shopping_groceries"
+  ],
   "codeowners": [
     "@fboulegue"
   ],
@@ -10,8 +13,5 @@
   "iot_class": "cloud_polling",
   "issue_tracker": "https://github.com/fboulegue/ha-burgerking/issues",
   "requirements": [],
-  "version": "1.0.0",
-  "categories": [
-    "productivity_information.shopping_groceries"
-  ]
+  "version": "1.0.0"
 }
